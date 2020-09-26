@@ -1,0 +1,312 @@
+$color_default :#6aaa77;
+$color_blue :#3FB8AF;
+$color_green :#7FC7AF;
+$color_orange :#e4ac1e;
+$color_yellow :#d7c148;
+$color_red :#fb5547;
+$font_prize:'B612 Mono', monospace;
+$font_time:'Quicksand', sans-serif;
+img {
+    max-width: 100%;
+}
+.color_default {
+    color: $color_default;
+}
+.color-danger {
+    color: $color_red!important;
+    font-family: $font_prize;
+}
+.text_default {
+    color: $color_default;
+}
+.theme-customize .time-count {
+    background: $color_default;
+}
+.color_orange,.color-orange {
+    color: $color_orange;
+}
+.theme-customize .tab-item {
+    background: $color_default;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.theme-customize .bg-gray {
+    background: rgb(245, 245, 245);
+    color: $color_default;
+}
+.theme-customize .color-customize {
+    color: $color_default;
+}
+
+.page-detail .goods-card .price {
+    color: $color_default;
+}
+
+/**/
+.theme-customize .button:not(.button-fill) {
+    color: $color_default;
+    border-color: $color_default
+}
+
+.theme-customize .button:not(.button-fill):active {
+    background-color: rgba(217, 75, 115, .15)
+}
+
+.theme-customize .button:not(.button-fill).active {
+    color: #fff;
+    background-color: $color_default
+}
+
+.theme-customize .button:not(.button-fill).button-light {
+    color: #ccc;
+    color: #5f646e;
+    border-color: #ccc
+}
+
+.theme-customize .button:not(.button-fill).button-light:active {
+    color: $color_blue;
+    border-color: $color_blue
+}
+
+.theme-customize .button:not(.button-fill).button-light.button-fill {
+    color: #fff;
+    background-color: #ccc
+}
+
+.theme-customize .button:not(.button-fill).button-light.button-fill:active {
+    background-color: $color_blue
+}
+
+.theme-customize .button:not(.button-fill).button-dark {
+    color: #6e727b;
+    color: #5f646e;
+    border-color: #6e727b
+}
+
+.theme-customize .button:not(.button-fill).button-dark:active {
+    color: $color_blue;
+    border-color: $color_blue
+}
+
+.theme-customize .button:not(.button-fill).button-dark.button-fill {
+    color: #fff;
+    background-color: #6e727b
+}
+
+.theme-customize .button:not(.button-fill).button-dark.button-fill:active {
+    background-color: $color_blue
+}
+
+.theme-customize .button:not(.button-fill).button-success {
+    color: $color_green;
+    border-color: $color_green
+}
+
+.theme-customize .button:not(.button-fill).button-success:active {
+    color: darken($color_green,20%);
+    border-color: darken($color_green,20%)
+}
+
+.theme-customize .button:not(.button-fill).button-success.button-fill {
+    color: #fff;
+    background-color: $color_green
+}
+
+.theme-customize .button:not(.button-fill).button-success.button-fill:active {
+    background-color: darken($color_green,20%)
+}
+
+.theme-customize .button:not(.button-fill).button-danger {
+    color: $color_red;
+    border-color: $color_red
+}
+
+.theme-customize .button:not(.button-fill).button-danger:active {
+    color: darken($color_red,20%);;
+    border-color: darken($color_red,20%);
+}
+
+.theme-customize .button:not(.button-fill).button-danger.button-fill {
+    color: #fff;
+    background-color: $color_red
+}
+
+.theme-customize .button:not(.button-fill).button-danger.button-fill:active {
+    background-color: darken($color_red,20%);
+}
+
+.theme-customize .button:not(.button-fill).button-warning {
+    color: $color_orange;
+    border-color: $color_orange
+}
+
+.theme-customize .button:not(.button-fill).button-warning:active {
+    color: darken($color_orange,20%);
+    border-color: darken($color_orange,20%);
+}
+
+.theme-customize .button:not(.button-fill).button-warning.button-fill {
+    color: #fff;
+    background-color: $color_orange
+}
+
+.theme-customize .button:not(.button-fill).button-warning.button-fill:active {
+    background-color: darken($color_orange,20%);
+}
+
+.theme-customize .button.button-fill {
+    color: #fff;
+    background: $color_default
+}
+
+.theme-customize .button.button-fill.button-light {
+    color: #ccc;
+    color: #5f646e;
+    border-color: #ccc
+}
+
+.theme-customize .button.button-fill.button-light:active {
+    color: $color_blue;
+    border-color: $color_blue
+}
+
+.theme-customize .button.button-fill.button-light.button-fill {
+    color: #fff;
+    background-color: #ccc
+}
+
+.theme-customize .button.button-fill.button-light.button-fill:active {
+    background-color: $color_blue
+}
+
+.theme-customize .button.button-fill.button-dark {
+    color: #6e727b;
+    color: #5f646e;
+    border-color: #6e727b
+}
+
+.theme-customize .button.button-fill.button-dark:active {
+    color: $color_blue;
+    border-color: $color_blue
+}
+
+.theme-customize .button.button-fill.button-dark.button-fill {
+    color: #fff;
+    background-color: #6e727b
+}
+
+.theme-customize .button.button-fill.button-dark.button-fill:active {
+    background-color: $color_blue
+}
+
+.theme-customize .button.button-fill.button-success {
+    color: $color_green;
+    border-color: $color_green
+}
+
+.theme-customize .button.button-fill.button-success:active {
+    color: darken($color_green,20%);
+    border-color: darken($color_green,20%)
+}
+
+.theme-customize .button.button-fill.button-success.button-fill {
+    color: #fff;
+    background-color: $color_green
+}
+
+.theme-customize .button.button-fill.button-success.button-fill:active {
+    background-color: darken($color_green,20%)
+}
+
+.theme-customize .button.button-fill.button-danger {
+    color: $color_red;
+    border-color: $color_red
+}
+
+.theme-customize .button.button-fill.button-danger:active {
+    color: darken($color_red,20%);;
+    border-color: darken($color_red,20%);
+}
+
+.theme-customize .button.button-fill.button-danger.button-fill {
+    color: #fff;
+    background-color: $color_red
+}
+
+.theme-customize .button.button-fill.button-danger.button-fill:active {
+    background-color: darken($color_red,20%);
+}
+
+.theme-customize .button.button-fill.button-warning {
+    color: $color_orange;
+    border-color: $color_orange
+}
+
+.theme-customize .button.button-fill.button-warning:active {
+    color: darken($color_orange,20%);
+    border-color: darken($color_orange,20%);
+}
+
+.theme-customize .button.button-fill.button-warning.button-fill {
+    color: #fff;
+    background-color: $color_orange
+}
+
+.theme-customize .button.button-fill.button-warning.button-fill:active {
+    background-color: darken($color_orange,20%);
+}
+
+.theme-customize i.icon, i.icon.theme-customize {
+    color: $color_default
+}
+
+.theme-customize .item-link.list-button, .theme-customize a {
+    color: $color_default
+}
+
+.bar.theme-customize a, .bar.theme-customize a i {
+    color: inherit
+}
+
+.bar.theme-customize a.active, .bar.theme-customize a.active i {
+    color: $color_default
+}
+
+.theme-customize .tab-item.active {
+    color: #fff
+}
+
+.range-slider.theme-customize input[type=range]::-webkit-slider-thumb:before,
+.theme-customize .range-slider input[type=range]::-webkit-slider-thumb:before {
+    background-color: $color_default
+}
+
+.theme-customize .picker-calendar-day.picker-calendar-day-selected span {
+    background-color: $color_default !important
+}
+
+.theme-customize .buttons-tab:after {
+    background: $color_default
+}
+
+.theme-customize .modal-button {
+    color: $color_default
+}
+
+.theme-customize .actions-modal-button:not(.color-danger):not(.bg-danger) {
+    color: $color_default
+}
+
+.theme-customize .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: $color_default
+}
+
+.theme-customize .swiper-button-next, .theme-customize .swiper-container-rtl .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23fe923d'%2F%3E%3C%2Fsvg%3E")
+}
+
+.theme-customize .swiper-button-prev, .theme-customize .swiper-container-rtl .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23fe923d'%2F%3E%3C%2Fsvg%3E")
+}
+

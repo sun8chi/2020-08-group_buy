@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>團購網</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/light7.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css?v3" />
+    <link rel="stylesheet" href="css/skin.css" />
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon-114x114.png" />
+  </head>
+
+  <body>
+    <!-- 購物車頁面 -->
+    <div id="page-cart" class="page page-cart theme-customize page-current">
+      <!-- 上選單 -->
+      <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left replace external" href="detail.html"> <span class="icon icon-left"></span> Back </a>
+        <h1 class="title">購物車</h1>
+      </header>
+      <!-- 產品明細 -->
+      <div class="content pb-lg">
+        <!-- 產品明細 -->
+        <div class="list-block media-list" style="margin-top: 0;">
+          <ul>
+            <!-- 產品 -->
+            <li>
+              <div class="item-content">
+                <div class="item-media">
+                  <a href="detail.html" class="external">
+                    <img src="img/p_list/01.jpg" width="80" />
+                  </a>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">花好月圓雕花月餅 X2</div>
+                  </div>
+                  <div class="item-subtitle color-danger">$160</div>
+                </div>
+                <div class="mr-1">
+                  <div class="add_count">
+                    <a class="less" href="#">-</a>
+                    <span>1</span>
+                    <a class="add" href="#">+</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- 產品 -->
+            <li>
+              <div class="item-content">
+                <div class="item-media">
+                  <a href="detail.html" class="external">
+                    <img src="img/p_list/01.jpg" width="80" />
+                  </a>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">花好月圓雕花月餅 X2</div>
+                  </div>
+                  <div class="item-subtitle color-danger">$160</div>
+                </div>
+                <div class="mr-1">
+                  <div class="add_count">
+                    <a class="less" href="#">-</a>
+                    <span>2</span>
+                    <a class="add" href="#">+</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="content-block">
+          <!-- 團購優惠 -->
+          <p><span class="icon icon-caret"></span>團購優惠</p>
+          <div class="list-block">
+            <div class="list-block">
+              <ul id="ul_discount">
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">2件9折</div>
+                    <div class="item-after">平均每件<span class="color-danger">$50</span>元</div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">3件8折</div>
+                    <div class="item-after">平均每件<span class="color-danger">$40</span>元</div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">10件65折</div>
+                    <div class="item-after">平均每件<span class="color-danger">$20</span>元</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- 填寫優惠券 -->
+          <p><span class="icon icon-caret"></span>是否有優惠券代碼</p>
+          <div class="list-block">
+            <ul>
+              <li>
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">輸入代碼</div>
+                    <div class="item-input">
+                      <input type="text" placeholder="按此填入代碼" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <p><a href="#" class="button button-default button-fill button-choose" style="width: 100px;">確認代碼</a> 本筆訂單優惠 <span class="color-danger">$0</span>元</p>
+          <!-- 確認訂單 -->
+          <p><span class="icon icon-caret"></span>最後確認本次購買金額</p>
+          <div class="list-block">
+            <ul>
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">總計</div>
+                  <div class="item-after">$495</div>
+                </div>
+              </li>
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">愛心點數扣抵</div>
+                  <div class="item-after">-$10</div>
+                </div>
+              </li>
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">運費</div>
+                  <div class="item-after">$100</div>
+                </div>
+              </li>
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">消費總金額</div>
+                  <div class="item-after"><strong class="color-danger" id="total">$585</strong></div>
+                </div>
+              </li>
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-text">＊訂購金額未滿<span class="color-danger">$1000</span>元，酌收運費<span class="color-danger">$100</span>元</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 固定下欄位 下一步 -->
+      <nav class="bar bar-tab">
+        <a class="tab-item bg-pink replace external" href="order.html">
+          下一步
+        </a>
+      </nav>
+    </div>
+    <!-- js -->
+    <script type="text/javascript" src="js/jQuery-3.2.1.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/light7.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/swiper.jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/bootstrap-number-input.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/script.js?v2" charset="utf-8"></script>
+  </body>
+</html>

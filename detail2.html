@@ -1,0 +1,426 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>團購網</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/light7.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css?v3" />
+    <link
+      rel="apple-touch-icon"
+      href="/assets/img/apple-touch-icon-114x114.png"
+    />
+  </head>
+
+  <body>
+    <!-- 產品介紹 -->
+    <div id="page-detail" class="page page-current theme-customize">
+      <div class="content" id="detail-page">
+        <div class="page-detail">
+          <!-- 上選固定標籤tabs -->
+          <div class="buttons-tab tab-top fixed-top">
+            <a href="#tab-product" class="tab-link active button">995愛購</a>
+            <a href="#tab-about" class="tab-link button">關於我們</a>
+            <a href="#tab-comments" class="tab-link button">紅利i幣</a>
+            <a href="deliver_list.html" class="button external">我的訂單</a>
+          </div>
+          <div class="tabs">
+            <!-- 產品介紹頁面 -->
+            <div class="tab active" id="tab-product">
+              <!-- 輪播 -->
+              <div
+                class="swiper-container swiper-detail"
+                data-space-between="10"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      class="card-cover"
+                      src="img/detail/product.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <!-- <div class="swiper-slide">
+                    <img class="card-cover" src="img/detail/02.jpg" alt="" />
+                  </div> -->
+                </div>
+                <div class="swiper-pagination">
+                  <span
+                    class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                  ></span
+                  ><span class="swiper-pagination-bullet"></span
+                  ><span class="swiper-pagination-bullet"></span>
+                </div>
+              </div>
+              <div class="content-block goods-card pb-xs">
+                <!-- 產品價格 -->
+                <div class="row goods-basic">
+                  <div class="col-100 product_name">
+                    <h2>
+                      Purim 普靈潔 奈米凝膠矽電荷 抗菌乾洗手 (60ml)
+                      (買五瓶送一瓶) 【防疫最佳守門員】
+                    </h2>
+                  </div>
+                  <div class="col-60 goods-l">
+                    <h3><s>原價$1080</s> 8.3折</h3>
+                  </div>
+                  <div class="col-40">
+                    <p><strong class="price">團購價 $900/組</strong></p>
+                  </div>
+                </div>
+                <!-- 庫存 -->
+                <div class="goods_stock">
+                  <p>限量 500 組／已售出<span class="font-lg"> 153 </span>件</p>
+                </div>
+              </div>
+              <div class="content-padded text-center icon_feature">
+                <div class="row">
+                  <div class="col-33">
+                    <img src="img/detail/icon01.png" alt="" />
+                    <p>愛心消費</p>
+                  </div>
+                  <div class="col-33">
+                    <img src="img/detail/icon02.png" alt="" />
+                    <p>優質好物</p>
+                  </div>
+                  <div class="col-33">
+                    <img src="img/detail/icon03.png" alt="" />
+                    <p>七天鑑賞</p>
+                  </div>
+                </div>
+              </div>
+              <div class="content-padded">
+                <p><span class="icon icon-caret"></span>團購優惠</p>
+                <!-- 團購優惠 -->
+                <div class="list-block">
+                  <ul id="ul_discount">
+                    <li class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">1組六瓶，滿千免運</div>
+                        <div class="item-after">
+                          平均每件<span class="color-danger">$150</span>元
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <p class="text-center">
+                  分享來自<span class="color_default" id="show_total">XXX</span
+                  >教會
+                </p>
+                <a href="#" class="button button-default button-fill button-lg"
+                  >立即分享</a
+                >
+              </div>
+              <h3 class="text-center">產品說明</h3>
+              <!-- 產品細節 -->
+              <div class="bg-white pd-top1">
+                <img src="img/detail/detail.jpg" alt="" />
+              </div>
+
+              <!-- 搶購倒數 -->
+              <div class="time_countdown">
+                <div class="clock" id="clockdiv">
+                  <h4>搶購倒數</h4>
+                  <div>
+                    <div class="smalltext"><span class="days">15</span> 天</div>
+                  </div>
+                  <div>
+                    <div class="smalltext">
+                      <span class="hours">00</span> 時
+                    </div>
+                  </div>
+                  <div>
+                    <div class="smalltext">
+                      <span class="minutes">00</span> 分
+                    </div>
+                  </div>
+                  <div>
+                    <div class="smalltext">
+                      <span class="seconds">00</span> 秒
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 關於我們頁面 -->
+            <div class="tab" id="tab-about">
+              <!-- 店家資訊 -->
+              <div class="about_content" style="margin-top: 0;">
+                <img src="img/detail/company.jpg" alt="" />
+                <div
+                  class="full_bg_content"
+                  style="background-image: url(img/bg_book.jpg)"
+                >
+                  <h3 class="text-center">你愛購 我igo 讓愛足夠</h3>
+                  <ul class="list_img_group">
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/icon01.png" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                          為愛而購
+                        </h2>
+                        <p>互相幫助、快樂行善，一起啟動愛的循環經濟。</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/icon02.png" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                          利己益人
+                        </h2>
+                        <p>
+                          利己於教會/協會/機構事工推動，更樂於推薦好產品、好服務出去，沒有阻礙。
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/icon03.png" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                          社會創新
+                        </h2>
+                        <p>
+                          完善社會創新生態系，具體實踐『運用商業模式，實踐社企使命，解決社會問題』
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- 團隊介紹 -->
+                <div
+                  class="full_bg_content"
+                  style="background-image: url(img/bg_dark.jpg)"
+                >
+                  <ul class="list_team">
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/01.jpg" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                          首席慈善管家 – 盧克文
+                        </h2>
+                        <p>
+                          995igo -- 救救我-愛夠 !
+                          是一家Giving的社會企業，也是專做慈善公益的互助平台。我們用人不斷消費力量，互相幫助、樂於分享，各地連結，來為全台灣的非營利組織及慈善公益機構，做長期有效的幫助，成為更多人的祝福!!
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/02.jpg" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                          首席營運管家 – 蔡榮隆
+                        </h2>
+                        <p>
+                          在995igo社群互助平台中，我們只做三件事，給與、分享、與幫助。給與
+                          透過你我的參與，互相激勵行善、越給越快樂! 分享
+                          大家用Line來分享，讓995igo因善成團、你為愛而購。幫助
+                          真心多給在有需要的地方、不要多拿跟我們合作的人，看見好事連連，不斷發生
+                          !!
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/03.jpg" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                          首席執行管家 - 施柏男
+                        </h2>
+                        <p>
+                          995igo
+                          如同一個有愛的智慧機器人，她知道你的需要，了解你的困難。以快閃高效的一頁式團購，精準凝聚你我buying
+                          power，讓更多好愛心商家能上架，透過在995igo的行善消費，成為許多捐輸對象，一個源源不絕、一直幫助的良善社會企業!!
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list_img">
+                        <img src="img/team/04.jpg" alt="" />
+                      </div>
+                      <div class="list_title">
+                        <h2>
+                            995愛購
+                        </h2>
+                        <p>
+                            撒凱納興業有限公司<br>
+                            Shekinah Establishment Inc.
+                            <br>
+                        地址：台灣省新北市新店區中正路501號-7 <br>
+                        Email：995igo@gmail.com <br>  
+                        電話：02-2788-5995
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <!-- 點數頁面 -->
+            <div class="tab point_content" id="tab-comments">
+              <!-- 點數列表 -->
+              <div class="list-block point_total">
+                <ul>
+                  <li class="item-content">
+                    <div class="item-media">
+                      <img src="img/icon_heart.svg" alt="" />
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">累積i幣</div>
+                      <div class="item-after">520</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="list-block point_list media-list inset">
+                <ul>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media">
+                        <img src="img/smile.svg" width="44" />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">黃美麗</div>
+                          <div class="item-after">2020/12/12 13:11</div>
+                        </div>
+                        <div class="item-text">
+                          儲值了 <b class="text_default">20</b> 點愛心點數！
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media">
+                        <img src="img/smile.svg" width="44" />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">黃美麗</div>
+                          <div class="item-after">2020/12/12 13:11</div>
+                        </div>
+                        <div class="item-text">
+                          儲值了 <b class="text_default">20</b> 點愛心點數！
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media">
+                        <img src="img/smile.svg" width="44" />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">黃美麗</div>
+                          <div class="item-after">2020/12/12 13:11</div>
+                        </div>
+                        <div class="item-text">
+                          儲值了 <b class="text_default">20</b> 點愛心點數！
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media">
+                        <img src="img/smile.svg" width="44" />
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">黃美麗</div>
+                          <div class="item-after">2020/12/12 13:11</div>
+                        </div>
+                        <div class="item-text">
+                          儲值了 <b class="text_default">20</b> 點愛心點數！
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- 活動說明 -->
+              <div class="content-padded">
+                <h4 class="color-pink">活動說明｜</h4>
+                <h5>累積使用:</h5>
+                <small>
+                  在你個人消費與你直接分享新好友之每筆消費中，凡每滿新臺幣100元即累積
+                  1枚 i幣 (1元)，未滿100元之餘額則不予兌換。<br />
+
+                  紅利i幣點數，於當月訂單月結後，20日後自動生效存入個人紅利i幣帳戶中，一年內為有效。
+                </small>
+                <h5>折抵方式:</h5>
+                <small>
+                  『購物折抵』 – 在當次購物車結帳中，填入欲扣抵 i幣 X
+                  點，即可抵扣商品消費金額，恕無法扣抵運費與手續費。
+                </small>
+                <h5>注意事項:</h5>
+                <small>
+                  每位會員，即為同意並遵守995igo的紅利i幣活動之規定，如有違反，經查證後，即喪失其累積點數資格。<br />
+                  *本司保留活動修改、變更及終止之權利。
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 下側固定立即訂購欄位 -->
+      <nav class="bar bar-tab">
+        <a class="tab-item bg-gray replace external" href="#">分享好友</a>
+        <a
+          class="tab-item bg-default replace external"
+          href="shopping_cart.html"
+          >立即訂購
+        </a>
+      </nav>
+    </div>
+    <!-- js -->
+    <script
+      type="text/javascript"
+      src="js/jQuery-3.2.1.min.js"
+      charset="utf-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/light7.min.js"
+      charset="utf-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/swiper.jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <script type="text/javascript" src="js/script.js?v2" charset="utf-8"></script>
+    <script type="text/javascript" src="js/time.js" charset="utf-8"></script>
+    <script>
+      // 倒數 js 時間設定
+      var deadline = new Date(
+        Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000
+      );
+      initializeClock("clockdiv", deadline);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,397 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>團購網</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/light7.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css?v3" />
+    <link rel="stylesheet" href="css/skin.css" />
+    <link
+      rel="apple-touch-icon"
+      href="/assets/img/apple-touch-icon-114x114.png"
+    />
+  </head>
+
+  <body>
+    <!-- 結帳頁面 -->
+    <div id="page-order" class="page page-cart theme-customize">
+      <!-- 上選單 -->
+      <header class="bar bar-nav">
+        <a
+          class="button button-link button-nav pull-left replace no-transition external"
+          href="shopping_cart.html"
+        >
+          <span class="icon icon-left"></span> Back
+        </a>
+        <h1 class="title">結帳頁面</h1>
+      </header>
+      <div class="content">
+        <!-- 選擇付款方式 -->
+        <p class="content-padded">
+          <span class="icon icon-caret"></span>選擇付款方式
+        </p>
+        <div class="list-block">
+          <ul>
+            <li>
+              <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio" />
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">線上付款（綠界）</div>
+                  </div>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio" />
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">貨到教會付款</div>
+                  </div>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio" />
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">ATM 轉帳</div>
+                    <div class="item-subtitle">
+                      <input
+                        type="text"
+                        class="w-100"
+                        placeholder="請輸入轉帳帳號"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <!-- 選擇取貨方式 -->
+        <p class="content-padded">
+          <span class="icon icon-caret"></span>選擇取貨方式
+        </p>
+        <div class="list-block">
+          <ul>
+            <li>
+              <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio" />
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">宅配費用送到家</div>
+                  </div>
+                  <div class="item-subtitle color-danger">+100 運費</div>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label class="label-checkbox item-content">
+                <input type="radio" name="my-radio" />
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">教會取貨</div>
+                    <div class="item-subtitle">
+                      <input
+                        type="text"
+                        class="w-100"
+                        placeholder="請輸入取貨教會"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <!-- 配送方式 -->
+        <div class="row align-items-center">
+          <div class="col-60">
+            <p class="content-padded">
+              <span class="icon icon-caret"></span>宅配資訊
+            </p>
+          </div>
+          <div class="col-40">
+            <div class="content-padded">
+              <a class="button button-fill button-primary">查詢門市</a>
+            </div>
+          </div>
+        </div>
+        <div class="list-block">
+          <ul>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">宅配超商</div>
+                  <div class="item-input arrow_down">
+                    <select name="" id="">
+                      <option value="" selected hidden>請選擇</option>
+                      <option value="">7-11</option>
+                      <option value="">全家便利商店</option>
+                      <option value="">OK 便利商店</option>
+                      <option value="">萊爾富</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">門市店號</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">門市名稱</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">門市地址</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">門市電話</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- 訂購人 -->
+        <p class="content-padded ">
+          <span class="icon icon-caret"></span>填寫訂購人資訊
+        </p>
+        <div class="list-block member-info">
+          <ul>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">姓名</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="請填寫您的姓名" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">電話</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="請填寫您的電話" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">地址</div>
+                  <div role="tw-city-selector" class="item-input"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-input">
+                    <input type="text" placeholder="請填寫您的地址" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">信箱</div>
+                  <div class="item-input">
+                    <input type="email" placeholder="請填寫您的信箱" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">備註</div>
+                  <div class="item-input">
+                    <input
+                      type="text"
+                      placeholder="請填寫訂單備註"
+                      style="height: 5rem;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- 收件人 -->
+        <div class="row">
+          <div class="col-60">
+            <p class="content-padded">
+              <span class="icon icon-caret"></span>填寫收件人資訊
+            </p>
+          </div>
+          <div class="col-40">
+            <div class="content-padded">
+              <label class="label-checkbox">
+                <input type="checkbox" name="my-radio" />
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox icon-same"></i>同訂購人
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="list-block member-info" style="margin-bottom: 100px;">
+          <ul>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">姓名</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="請填寫您的姓名" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">電話</div>
+                  <div class="item-input">
+                    <input type="text" placeholder="請填寫您的電話" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">地址</div>
+                  <div role="tw-city-selector" class="item-input"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-input">
+                    <input type="text" placeholder="請填寫您的地址" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">信箱</div>
+                  <div class="item-input">
+                    <input type="email" placeholder="請填寫您的信箱" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">備註</div>
+                  <div class="item-input">
+                    <input
+                      type="text"
+                      placeholder="請填寫訂單備註"
+                      style="height: 5rem;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 固定下欄位 確認 -->
+      <nav class="bar bar-tab">
+        <a class="tab-item bg-pink external" href="order-pay.html">
+          下一步
+        </a>
+      </nav>
+    </div>
+    <!-- js -->
+    <script
+      type="text/javascript"
+      src="js/jQuery-3.2.1.min.js"
+      charset="utf-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/light7.min.js"
+      charset="utf-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/swiper.jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/city-selector/tw-city-selector.min.js"
+      charset="utf-8"
+    ></script>
+    <script type="text/javascript" src="js/script.js?v2" charset="utf-8"></script>
+    <script>
+      // 城市選擇
+      new TwCitySelector();
+    </script>
+  </body>
+</html>
